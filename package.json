@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shekhutsav1962001/AutoGit.git"
+    "url": "git+https://github.com/shekhutsav1962001/Git-Hack"
   },
   "author": "Utsav Shekh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shekhutsav1962001/AutoGit/issues"
+    "url": "https://github.com/shekhutsav1962001/Git-Hack/issues"
   },
-  "homepage": "https://github.com/shekhutsav1962001/AutoGit#readme",
+  "homepage": "https://github.com/shekhutsav1962001/Git-Hack#readme",
   "dependencies": {
     "jsonfile": "^6.1.0",
     "moment": "^2.29.1",

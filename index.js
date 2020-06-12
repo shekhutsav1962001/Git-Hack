@@ -9,7 +9,6 @@ const FILEPATH = "./data.json";
 
 
 const DATE = moment("13.6.2020", "DD.MM.YYYY").format();
-console.log(DATE)
 const data = {
   date: DATE,
 };

@@ -12,7 +12,9 @@ const data = {
   date: DATE,
 };
 
-jsonfile.writeFile(FILEPATH, data, () => {
-  // callback
-  git.add(["."]).commit(DATE, { "--date": COMMITDATE }).push();
-});
+for (let index = 0; index < 30; index++) {
+  jsonfile.writeFile(FILEPATH, data, () => {
+    // callback
+    git.add(["."]).commit(DATE, { "--date": COMMITDATE }).push();
+  });
+}

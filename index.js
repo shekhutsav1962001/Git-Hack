@@ -5,17 +5,20 @@ const git = simpleGit();
 const FILEPATH = "./data.json";
 
 // const DATE = moment().subtract(1,'y').format()
-let DATE = moment().format();
+// let DATE = moment().format();
 const COMMITDATE = moment("14.6.2020", "DD.MM.YYYY").format();
 
-const data = {
-  date: DATE,
-};
+// const data = {
+//   date: DATE,
+// };
 
 for (let index = 0; index < 30; index++) {
-  jsonfile.writeFile(FILEPATH, {date:moment().format()}, () => {
+  let DATE = moment().format();
+  const data = {
+    date: DATE,
+  };
+  jsonfile.writeFile(FILEPATH, data, () => {
     // callback
-    console.log(DATE)
     git.add(["."]).commit(DATE, { "--date": COMMITDATE }).push();
   });
 }

@@ -13,9 +13,8 @@ const data = {
 };
 
 for (let index = 0; index < 30; index++) {
-  jsonfile.writeFile(FILEPATH, data, () => {
+  jsonfile.writeFile(FILEPATH, {date:moment().format()}, () => {
     // callback
-    DATE = moment().format();
     console.log(DATE)
     git.add(["."]).commit(DATE, { "--date": COMMITDATE }).push();
   });

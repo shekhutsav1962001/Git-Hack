@@ -14,7 +14,7 @@ const COMMITDATE = moment("14.6.2020", "DD.MM.YYYY").format();
 
 for (let index = 0; index < 30; index++) {
   let DATE = moment().format();
-  const data = {
+  let data = {
     date: DATE,
   };
   jsonfile.writeFile(FILEPATH, data, () => {

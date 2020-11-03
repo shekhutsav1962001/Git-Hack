@@ -1,4 +1,4 @@
-# Git Hack
+# Git Hack 😁😜
 
 #### This will automate commit and push on given date [it will work on all dates ie: past , present , future ]
 

@@ -1,8 +1,17 @@
-# AutoGit
-AutoGit
+# Git Hack
 
-### This will automate commit and push
+### This will automate commit and push on given date
 
+#### Just made for learning purpose don't misuse it.
+
+##### How to use ?
+
+```javascript
+// just change date ie. 4.11.2020 
+// so it will commit on 4.11.2020 date
+const COMMITDATE = moment("4.11.2020", "DD.MM.YYYY").format();
+
+```
 
 ![alt text](/images/1.1.PNG)
 

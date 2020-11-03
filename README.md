@@ -12,6 +12,17 @@
 const COMMITDATE = moment("4.11.2020", "DD.MM.YYYY").format();
 
 ```
+##### How to run ?
+
+```javascript
+
+$ npm run dev
+
+```
+
+##### Here is snapshot of demo. 
+
+<hr/>
 
 ![alt text](/images/1.1.PNG)
 

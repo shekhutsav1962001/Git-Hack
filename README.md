@@ -1,6 +1,6 @@
 # Git Hack
 
-### This will automate commit and push on given date [it will work on all dates ie: past , present , future ]
+#### This will automate commit and push on given date [it will work on all dates ie: past , present , future ]
 
 #### Just made for learning purpose don't misuse it.
 

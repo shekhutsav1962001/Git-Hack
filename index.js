@@ -6,7 +6,7 @@ const FILEPATH = "./data.json";
 
 // const DATE = moment().subtract(1,'y').format()
 const DATE = moment().format();
-const COMMITDATE = moment("8.7.2020", "DD.MM.YYYY").format();
+const COMMITDATE = moment("4.11.2020", "DD.MM.YYYY").format();
 
 const data = {
   date: DATE,

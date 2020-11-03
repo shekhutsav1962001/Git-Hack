@@ -47,3 +47,9 @@ $ npm run dev
 ![alt text](/images/4.PNG)
 
 <hr/>
+
+```javascript
+
+Give a ⭐ if you like it.
+
+```

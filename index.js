@@ -12,6 +12,7 @@ const data = {
 
 
 jsonfile.writeFile(FILEPATH,data,()=>{
+    // callback
     git.add(['.']).commit(DATE,{'--date':DATE}).push()
 })
 

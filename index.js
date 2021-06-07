@@ -5,7 +5,8 @@ const git = simpleGit()
 const FILEPATH = './data.json'
 
 
-const DATE = moment().subtract(1,'y').format()
+// const DATE = moment().subtract(1,'y').format()
+const DATE = moment().format()
 const data = {
     date:DATE
 }

@@ -13,4 +13,4 @@ const data = {
 
 jsonfile.writeFileSync(FILEPATH,data)
 
-git.add([FILEPATH]).commit(DATE,{'--date':DATE}).push()
+git.add(['.']).commit(DATE,{'--date':DATE}).push()

@@ -1,7 +1,7 @@
 {
   "name": "autogit",
   "version": "1.0.0",
-  "description": "This will automate commit and push.",
+  "description": "This will automate commit and push",
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",

@@ -1,0 +1,25 @@
+{
+  "name": "autogit",
+  "version": "1.0.0",
+  "description": "This will automate commit and push",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekhutsav1962001/AutoGit.git"
+  },
+  "author": "Utsav Shekh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shekhutsav1962001/AutoGit/issues"
+  },
+  "homepage": "https://github.com/shekhutsav1962001/AutoGit#readme",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.1",
+    "simple-git": "^2.39.0"
+  }
+}

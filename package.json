@@ -20,6 +20,6 @@
   "dependencies": {
     "jsonfile": "^6.1.0",
     "moment": "^2.29.1",
-    "simple-git": "^2.39.0"
+    "simple-git": "^3.5.0"
   }
 }
